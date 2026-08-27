@@ -4,7 +4,7 @@ Hi, I'm **Xanxi**, an Amiga hobbyist developer.
 
 I enjoy experimenting with classic Amiga hardware and writing software that
 extends what these machines can do, with a particular interest in multimedia,
-emulation, games, MIDI and hardware acceleration.
+emulation, games, music and hardware acceleration.
 
 A large part of my recent work explores the ARM processors inside the
 **MNT ZZ9000** through my **XACP** firmware/application platform, but I also
