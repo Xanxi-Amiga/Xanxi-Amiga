@@ -1,6 +1,6 @@
 # Xanxi — Amiga hobbyist developer
 
-Hi, I'm **Xanxi**, an Amiga hobbyist developer.
+Hi, I'm **Xanxi**, an Amiga hobbyist developer from France.
 
 I enjoy experimenting with classic Amiga hardware and writing software that
 extends what these machines can do, with a particular interest in multimedia,
