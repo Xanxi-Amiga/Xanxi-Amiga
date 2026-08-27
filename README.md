@@ -28,8 +28,8 @@ Recent applications and projects include:
 - **ZZMIDI** — SoundFont MIDI synthesis and playback
 - **ZZMPEG** — MPEG-1 / MP2 playback
 - **ZZBench** — Amiga / ARM / memory bandwidth benchmark
-- **MP3 / AmigaAMP tools**
-- **Julia / Mandelbrot Core1 experiments**
+- **MP3 ARM decoding on ZZ9000 **
+- **Julia set and Mandelbrot fractals Core1 experiments**
 
 ➡️ [XACP-ZZ9000 repository](https://github.com/Xanxi-Amiga/XACP-ZZ9000)
 
