@@ -16,8 +16,8 @@ develop native AmigaOS software that does not require a ZZ9000.
 
 **XACP — eXtended ARM Coprocessor Protocol**
 
-A low-level platform for using the ARM Cortex-A9 processor of the ZZ9000
-as coprocessor for classic Amigas.
+A low-level platform for using the ARM Cortex-A9 cores of the ZZ9000
+as coprocessors for classic Amigas.
 
 Recent applications and projects include:
 
