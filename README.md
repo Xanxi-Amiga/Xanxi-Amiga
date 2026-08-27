@@ -57,7 +57,6 @@ I'm currently interested in:
 - ZZ9000 ARM coprocessing
 - MIDI and audio
 - arcade and console emulation
-- RTG graphics
 - hardware acceleration
 - making old hardware do things it was never originally designed to do
 
