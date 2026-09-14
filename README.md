@@ -21,6 +21,7 @@ as coprocessors for classic Amigas.
 
 Recent applications and projects include:
 
+- **ZZQuake** — Quake running on ZZ9000 ARM Core1 with AmigaOS / Picasso96 host integration
 - **ZZDoom** — Doom running on ZZ9000 ARM Core1
 - **ZZPicoDrive** — Sega Mega Drive / Genesis and Master System emulation
 - **ZZRastan** — standalone recreation of the Taito Rastan arcade hardware
