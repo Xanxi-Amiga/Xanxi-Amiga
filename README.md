@@ -21,6 +21,7 @@ as coprocessors for classic Amigas.
 
 Recent applications and projects include:
 
+- **ZZDarkForcesNEXT** — The Force Engine / STAR WARS: Dark Forces running on ZZ9000 ARM Core1 with AmigaOS / Picasso96 / AHI integration
 - **ZZQuake** — Quake running on ZZ9000 ARM Core1 with AmigaOS / Picasso96 host integration
 - **ZZDoom** — Doom running on ZZ9000 ARM Core1
 - **ZZPicoDrive** — Sega Mega Drive / Genesis and Master System emulation
