@@ -1,75 +1,87 @@
-# Xanxi — Amiga hobbyist developer
+Xanxi - Amiga software and ZZ9000/XACP development
 
-Hi, I'm **Xanxi**, an Amiga hobbyist developer from France.
+Hi, I'm Xanxi, an Amiga hobbyist developer from France.
 
-I enjoy experimenting with classic Amiga hardware and writing software that
-extends what these machines can do, with a particular interest in multimedia,
-emulation, games, music and hardware acceleration.
+I enjoy exploring what classic Amigas can do through software, multimedia, emulation, music and hardware acceleration. Some of my projects use the ARM processors and FPGA capabilities of the MNT ZZ9000; others are native AmigaOS applications that do not require a ZZ9000.
 
-A large part of my recent work explores the ARM processors inside the
-**MNT ZZ9000** through my **XACP** firmware/application platform, but I also
-develop native AmigaOS software that does not require a ZZ9000.
+XACP / MNT ZZ9000
 
-## Selected projects
+XACP - eXtended ARM Coprocessor Protocol is my firmware and application platform for using the ZZ9000's dual ARM Cortex-A9 processors as coprocessors for classic Amigas, with AmigaOS, Picasso96 and AHI integration.
 
-### XACP / ZZ9000
+The latest XX19d-RIX / XACP v1.8 firmware integrates RasterIX, the FPGA 3D renderer developed by ToNi3141, alongside XACP's ARM services and new image-decoding facilities.
 
-**XACP — eXtended ARM Coprocessor Protocol**
+Recent releases - October 2026
 
-A low-level platform for using the ARM Cortex-A9 cores of the ZZ9000
-as coprocessors for classic Amigas.
+ZZOpenLara 1.0 - The original Tomb Raider I running on ZZ9000 Core1, with ARM software rendering and FPGA RasterIX acceleration at 320x240, 640x480 and 800x600.
 
-Recent applications and projects include:
+ZZQuake2 1.0 - Quake II with ARM software, TinyGL and FPGA RasterIX renderers.
 
-- **ZZDarkForcesNEXT** — The Force Engine / STAR WARS: Dark Forces running on ZZ9000 ARM Core1 with AmigaOS / Picasso96 / AHI integration
-- **ZZQuake** — Quake running on ZZ9000 ARM Core1 with AmigaOS / Picasso96 host integration
-- **ZZDoom** — Doom running on ZZ9000 ARM Core1
-- **ZZPicoDrive** — Sega Mega Drive / Genesis and Master System emulation
-- **ZZRastan** — standalone recreation of the Taito Rastan arcade hardware
-- **ZZSpeech** — speech synthesis using CMU Flite on ARM Core1
-- **ZZMIDI** — SoundFont MIDI synthesis and playback
-- **ZZMPEG** — MPEG-1 / MP2 playback
-- **ZZBench** — Amiga / ARM / memory bandwidth benchmark
-- **MP3 ARM decoding on ZZ9000**
-- **Julia set and Mandelbrot fractals Core1 experiments**
+ZZVGMPlay 1.0 - VGM/VGZ music player emulating a wide range of arcade, console and home-computer sound chips on Core1.
 
-➡️ [XACP-ZZ9000 repository](https://github.com/Xanxi-Amiga/XACP-ZZ9000)
+ZZScreensavers 1.1 - Julia fractals, a textured Earth and FPGA-accelerated Solar Winds.
 
-### ZZ9000 Scanlines V2
+XX19d-RIX - XACP v1.8 firmware with RasterIX integrated into the ZZ9000 FPGA, distributed with the corresponding sources.
 
-FPGA-based CRT scanline modes for the ZZ9000 scandoubler, with AmigaOS
-CLI and GUI control utilities.
+Other XACP applications
 
-➡️ [ZZ9000 Scanlines V2](https://github.com/Xanxi-Amiga/zz9000-scanlines)
+ZZDarkForcesNEXT - STAR WARS: Dark Forces using The Force Engine on Core1, with enhanced engine features and MIDI support.
 
-### MIDIKeys
+ZZQuake and ZZQuake HighRes - Quake running on Core1, including high-resolution builds up to 1024x768.
 
-A small native AmigaOS utility that turns the Amiga keyboard into a
-CAMD MIDI keyboard.
+ZZDoom - Doom engine running on ZZ9000 Core1.
 
-Runs even on a standard 68000 Amiga.
+ZZPicoDrive - Sega Mega Drive / Genesis and Master System emulation.
 
-➡️ [MIDIKeys for AmigaOS](https://github.com/Xanxi-Amiga/MIDIKeys-Amiga)
+ZZRastan - Standalone recreation of the Taito Rastan arcade hardware.
 
-## Current interests
+ZZMIDI - SoundFont-based MIDI synthesis and playback.
 
-I'm currently interested in:
+ZZSpeech - Speech synthesis using CMU Flite on ARM Core1.
 
-- classic Amiga 68k software
-- ZZ9000 ARM coprocessing
-- MIDI and audio
-- arcade and console emulation
-- hardware acceleration
-- making old hardware do things it was never originally designed to do
+ZZMPEG - MPEG-1 video and MP2 audio playback.
 
-Most of these projects are developed simply because they are things I wanted
-to use on my own Amigas.
+ZZBench - Amiga CPU, ARM and memory bandwidth benchmarking.
 
-Some projects are open source, while others are distributed as freeware.
-Please check the individual project repositories and documentation for
-licensing information.
+MP3 acceleration and audio tools - ARM-assisted multimedia playback and decoding.
 
----
+FPGA and 3D experiments - RasterIX, TinyGL, fractals and graphics demonstrations.
 
-**Platform:** Classic Amiga / AmigaOS 2.x–3.x  
-**GitHub:** Xanxi-Amiga
+Firmware, application downloads, documentation and development sources are available in the XACP-ZZ9000 repository.
+
+Other Amiga projects
+
+ZZ9000 Scanlines V2
+
+FPGA-based CRT scanline effects for the ZZ9000 scandoubler, with AmigaOS CLI and GUI control utilities.
+
+MIDIKeys
+
+A small native AmigaOS utility that turns the Amiga keyboard into a CAMD MIDI keyboard.
+
+It also runs on a standard 68000 Amiga, without any ZZ9000 hardware.
+
+Current interests
+
+My main interests include:
+
+Classic Amiga 68k software development
+
+ARM coprocessing and FPGA hardware acceleration
+
+MIDI, audio and multimedia
+
+Arcade and console emulation
+
+Classic game engines and ports
+
+Exploring new possibilities for original Amiga hardware
+
+Most of these projects started simply because they were things I wanted to use on my own Amigas.
+
+They include original software, ports and integrations of existing projects. Original authors and third-party components are credited in the individual repositories and releases.
+
+Some projects are open source, while others are distributed as freeware. Please check the corresponding project documentation for licensing information.
+
+Platform: Classic Amiga / AmigaOS 2.x-3.x
+
+GitHub: Xanxi-Amiga
